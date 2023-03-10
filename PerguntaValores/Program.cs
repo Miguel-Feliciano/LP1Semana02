@@ -19,6 +19,9 @@ namespace PerguntaValores
             v = Math.PI * Math.Pow(r ,2) * a;
             Console.WriteLine($"The volume of the cylinder is: {v}");
 
+            s = (2 * Math.PI * r *(r + a));
+            Console.WriteLine($"The surface area of the cylinder is: {s}");
+
         }
     }
 }
