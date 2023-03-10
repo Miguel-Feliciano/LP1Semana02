@@ -10,16 +10,17 @@ namespace PerguntaValores
             double r;
             double v;
             double s;
+            double p = 3.1415926;
 
             Console.WriteLine("Enter height: ");
             a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Enter radius: ");
             r = Convert.ToDouble(Console.ReadLine());
 
-            v = Math.PI * Math.Pow(r ,2) * a;
+            v = p * Math.Pow(r ,2) * a;
             Console.WriteLine($"The volume of the cylinder is: {v}");
 
-            s = (2 * Math.PI * r *(r + a));
+            s = (2 * p * r *(r + a));
             Console.WriteLine($"The surface area of the cylinder is: {s}");
 
         }
