@@ -39,6 +39,11 @@ namespace Specials
             ulong ul = ulong.MaxValue;
             Console.WriteLine((ulong)(ul + 1));
 
+            float f = float.MaxValue;
+            Console.WriteLine((float)(f + 1));
+            double d = double.MaxValue;
+            Console.WriteLine((double)(d + 1));
+
         }
     }
 }
