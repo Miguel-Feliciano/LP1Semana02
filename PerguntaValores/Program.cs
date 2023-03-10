@@ -17,7 +17,7 @@ namespace PerguntaValores
             Console.WriteLine("Enter radius: ");
             r = Convert.ToDouble(Console.ReadLine());
 
-            v = p * Math.Pow(r ,2) * a;
+            v = p * (r * r) * a;
             Console.WriteLine($"The volume of the cylinder is: {v}");
 
             s = (2 * p * r *(r + a));
