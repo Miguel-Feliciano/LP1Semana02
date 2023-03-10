@@ -20,7 +20,25 @@ namespace Specials
             Console.WriteLine($"float -positive infinity: {float.PositiveInfinity} | negative infinity: {float.NegativeInfinity}");
             Console.WriteLine($"double -positive infinity: {double.PositiveInfinity} | negative infinity: {double.NegativeInfinity}");
             Console.WriteLine($"float -NaN: {float.NaN}");
-            Console.WriteLine($"double -NaN: {double.NaN}");
+            Console.WriteLine($"double -NaN: {double.NaN}\n");
+
+            int i = int.MaxValue;
+            Console.WriteLine((int)(i + 1));
+            uint ui = uint.MaxValue;
+            Console.WriteLine((uint)(ui + 1));
+            byte b = byte.MaxValue;
+            Console.WriteLine((byte)(b + 1));
+            sbyte sb = sbyte.MaxValue;
+            Console.WriteLine((sbyte)(sb + 1));
+            short s = short.MaxValue;
+            Console.WriteLine((short)(s + 1));
+            ushort us = ushort.MaxValue;
+            Console.WriteLine((ushort)(us + 1));
+            long l = long.MaxValue;
+            Console.WriteLine((long)(l + 1));
+            ulong ul = ulong.MaxValue;
+            Console.WriteLine((ulong)(ul + 1));
+
         }
     }
 }
