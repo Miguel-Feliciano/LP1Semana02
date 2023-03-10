@@ -15,7 +15,12 @@ namespace Specials
             Console.WriteLine($"long -max: {long.MaxValue} | min: {long.MinValue}");
             Console.WriteLine($"ulong -max: {ulong.MaxValue} | min: {ulong.MinValue}");
             Console.WriteLine($"float -max: {float.MaxValue} | min: {float.MinValue}");
-            Console.WriteLine($"double -max: {double.MaxValue} | min: {double.MinValue}");
+            Console.WriteLine($"double -max: {double.MaxValue} | min: {double.MinValue}\n");
+
+            Console.WriteLine($"float -positive infinity: {float.PositiveInfinity} | negative infinity: {float.NegativeInfinity}");
+            Console.WriteLine($"double -positive infinity: {double.PositiveInfinity} | negative infinity: {double.NegativeInfinity}");
+            Console.WriteLine($"float -NaN: {float.NaN}");
+            Console.WriteLine($"double -NaN: {double.NaN}");
         }
     }
 }
